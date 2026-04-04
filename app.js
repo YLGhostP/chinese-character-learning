@@ -136,7 +136,7 @@ function speakCharacterWithZhuyin(char, zhuyin) {
     // 先念字
     const utter1 = new SpeechSynthesisUtterance(char);
     utter1.lang = 'zh-TW';
-    utter1.rate = 0.55;
+    utter1.rate = 0.65;
 
     // 停頓後念注音拆解
     utter1.onend = () => {
