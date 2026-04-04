@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>國字學習樂</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gradient-to-br from-sky-50 to-indigo-100 min-h-screen">
+    <div id="app" class="container mx-auto px-4 py-6 max-w-lg">
+
+        <!-- 首頁 -->
+        <div id="home-page" class="page">
+            <h1 class="text-4xl font-bold text-center text-indigo-800 mb-8 mt-4">🏮 國字學習樂</h1>
+
+            <!-- 年級選擇器 -->
+            <div class="bg-white rounded-2xl shadow-lg p-6 mb-8">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4 text-center">選擇年級</h2>
+                <div class="grid grid-cols-3 gap-3" id="grade-selector"></div>
+                <div class="flex justify-center mt-4 gap-3" id="semester-selector"></div>
+            </div>
+
+            <!-- 模式選擇按鈕 -->
+            <div class="space-y-4">
+                <button id="btn-learn"
+                    class="w-full py-6 bg-gradient-to-r from-blue-500 to-blue-600 text-white text-2xl font-bold rounded-2xl shadow-lg hover:shadow-xl transition-all hover:scale-[1.02] active:scale-[0.98]">
+                    👀 認識新字
+                </button>
+                <button id="btn-game"
+                    class="w-full py-6 bg-gradient-to-r from-green-500 to-green-600 text-white text-2xl font-bold rounded-2xl shadow-lg hover:shadow-xl transition-all hover:scale-[1.02] active:scale-[0.98]">
+                    🎮 翻牌挑戰
+                </button>
+            </div>
+
+            <!-- 學習進度 -->
+            <div class="mt-8 bg-white rounded-xl p-4 shadow">
+                <h3 class="text-lg font-medium text-gray-600 mb-3">📊 學習進度</h3>
+                <div id="progress-stats"></div>
+            </div>
+        </div>
+
+        <!-- 學習模式 -->
+        <div id="learn-page" class="page hidden">
+            <button onclick="showPage('home')" class="mb-4 text-indigo-600 font-medium flex items-center gap-1">
+                <span>←</span> 回首頁
+            </button>
+
+            <div id="flashcard"
+                class="bg-white rounded-3xl shadow-2xl p-8 min-h-[420px] flex flex-col items-center justify-center cursor-pointer select-none">
+                <div id="char-display" class="text-9xl font-bold text-gray-800 mb-4"></div>
+                <div id="zhuyin-display" class="text-4xl text-indigo-600 mb-2"></div>
+                <div class="mt-6 mb-2 px-6 py-3 bg-gray-50 rounded-xl">
+                    <div id="example-display" class="text-2xl text-gray-700 font-medium"></div>
+                    <div id="example-zhuyin-display" class="text-lg text-indigo-500 mt-1"></div>
+                </div>
+                <div class="text-sm text-gray-400 mt-4">點擊漢字聽發音｜點擊造詞聽造詞發音 🔊</div>
+            </div>
+
+            <div class="flex justify-between mt-6 gap-4">
+                <button id="btn-prev" class="flex-1 py-4 bg-gray-200 text-gray-700 text-xl font-medium rounded-xl">
+                    ◀ 上一個
+                </button>
+                <div id="card-counter" class="flex items-center justify-center px-4 text-gray-500"></div>
+                <button id="btn-next" class="flex-1 py-4 bg-gray-200 text-gray-700 text-xl font-medium rounded-xl">
+                    下一個 ▶
+                </button>
+            </div>
+        </div>
+
+        <!-- 遊戲模式 -->
+        <div id="game-page" class="page hidden">
+            <div class="flex justify-between items-center mb-4">
+                <button onclick="showPage('home')" class="text-indigo-600 font-medium flex items-center gap-1">
+                    <span>←</span> 回首頁
+                </button>
+                <div id="game-score" class="text-lg font-medium text-gray-600"></div>
+            </div>
+
+            <div id="game-board" class="grid grid-cols-4 gap-3">
+            </div>
+
+            <div id="game-complete" class="hidden mt-8 bg-white rounded-2xl shadow-xl p-8 text-center">
+                <div class="text-6xl mb-4">🎉</div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">太棒了！</h2>
+                <p class="text-gray-600 mb-6" id="game-result"></p>
+                <button onclick="startGame()" class="px-8 py-3 bg-green-500 text-white font-medium rounded-xl">
+                    再玩一次
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
