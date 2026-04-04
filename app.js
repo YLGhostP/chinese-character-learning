@@ -164,10 +164,10 @@ function speakCharacterWithZhuyin(char, zhuyin) {
                     utter3.lang = 'zh-TW';
                     utter3.rate = 0.7;
                     window.speechSynthesis.speak(utter3);
-                }, 100);
+                }, 150);
             };
             window.speechSynthesis.speak(utter2);
-        }, 100);
+        }, 150);
     };
 
     window.speechSynthesis.speak(utter1);
