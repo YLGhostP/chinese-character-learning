@@ -245,6 +245,9 @@ function speakText(text) {
 
 // ========== 遊戲模式：連連看 ==========
 function startGame() {
+    // 確保清除舊計時器
+    stopTimer();
+
     // 重置點擊選中狀態
     selectedZhuyinId = null;
 
@@ -732,7 +735,7 @@ function gameComplete() {
     const stars = calculateStars(elapsed, gameState.mistakes);
 
     // 顯示完成畫面
-    document.getElementById('complete-emoji').textContent = stars === 3 ? '🏆' : stars === 2 ? '👍' : '🙂';
+    document.getElementById('complete-gif').src = 'images/sucess.gif';
     document.getElementById('complete-title').textContent = stars === 3 ? '完美通關！' : stars === 2 ? '表現不錯！' : '恭喜完成！';
     document.getElementById('complete-score').textContent = `總分：${finalScore}`;
     document.getElementById('complete-detail').textContent = `用時 ${elapsed} 秒 · 錯誤 ${gameState.mistakes} 次 · 最高連擊 x${gameState.maxCombo}`;
@@ -762,10 +765,10 @@ function gameOver(reason) {
 
     const isTimeUp = reason === 'time';
     const titleEl = document.querySelector('#game-over h2');
-    const emojiEl = document.querySelector('#game-over .text-6xl');
+    const gifEl = document.getElementById('over-gif');
 
     if (titleEl) titleEl.textContent = isTimeUp ? '時間到！' : '生命用盡！';
-    if (emojiEl) emojiEl.textContent = isTimeUp ? '⏰' : '💔';
+    if (gifEl) gifEl.src = 'images/fail.gif';
 
     document.getElementById('over-matched').textContent = gameState.matchedIds.size;
     document.getElementById('over-total').textContent = gameState.words.length;

@@ -110,7 +110,7 @@
                     <span id="timer-text">90 秒</span>
                 </div>
                 <div class="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
-                    <div id="timer-bar" class="h-3 rounded-full transition-all duration-1000 ease-linear bg-green-500"
+                    <div id="timer-bar" class="h-3 rounded-full transition-all duration-300 ease-linear bg-green-500"
                         style="width: 100%"></div>
                 </div>
             </div>
@@ -133,7 +133,7 @@
             <!-- 遊戲完成畫面 -->
             <div id="game-complete" class="hidden fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
                 <div class="bg-white rounded-3xl shadow-2xl p-8 text-center max-w-sm w-full animate-pop-in">
-                    <div class="text-6xl mb-4" id="complete-emoji">🎉</div>
+                    <img id="complete-gif" src="" alt="" class="mx-auto mb-4 w-40 h-40 object-contain">
                     <h2 class="text-2xl font-bold text-gray-800 mb-2" id="complete-title">太棒了！</h2>
 
                     <!-- 星星評級 -->
@@ -165,7 +165,7 @@
             <!-- 時間到畫面 -->
             <div id="game-over" class="hidden fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
                 <div class="bg-white rounded-3xl shadow-2xl p-8 text-center max-w-sm w-full animate-pop-in">
-                    <div class="text-6xl mb-4">⏰</div>
+                    <img id="over-gif" src="" alt="" class="mx-auto mb-4 w-40 h-40 object-contain">
                     <h2 class="text-2xl font-bold text-gray-800 mb-2">時間到！</h2>
                     <p class="text-gray-600 mb-2">已完成 <span id="over-matched" class="font-bold text-indigo-600">0</span>
                         / <span id="over-total">0</span> 組</p>
