@@ -1,0 +1,2696 @@
+[
+    {
+        "grade": 2,
+        "semester": 1,
+        "characters": [
+            {
+                "id": "c2_1_001",
+                "char": "邊",
+                "zhuyin": "ㄅㄧㄢ",
+                "example": "旁邊"
+            },
+            {
+                "id": "c2_1_002",
+                "char": "本",
+                "zhuyin": "ㄅㄣˇ",
+                "example": "書本"
+            },
+            {
+                "id": "c2_1_003",
+                "char": "抱",
+                "zhuyin": "ㄅㄠˋ",
+                "example": "擁抱"
+            },
+            {
+                "id": "c2_1_004",
+                "char": "便",
+                "zhuyin": "ㄅㄧㄢˋ",
+                "example": "方便"
+            },
+            {
+                "id": "c2_1_005",
+                "char": "半",
+                "zhuyin": "ㄅㄢˋ",
+                "example": "一半"
+            },
+            {
+                "id": "c2_1_006",
+                "char": "被",
+                "zhuyin": "ㄅㄟˋ",
+                "example": "棉被"
+            },
+            {
+                "id": "c2_1_007",
+                "char": "背",
+                "zhuyin": "ㄅㄟˋ",
+                "example": "背後"
+            },
+            {
+                "id": "c2_1_008",
+                "char": "包",
+                "zhuyin": "ㄅㄠ",
+                "example": "包子"
+            },
+            {
+                "id": "c2_1_009",
+                "char": "幫",
+                "zhuyin": "ㄅㄤ",
+                "example": "幫忙"
+            },
+            {
+                "id": "c2_1_010",
+                "char": "別",
+                "zhuyin": "ㄅㄧㄝˊ",
+                "example": "別人"
+            },
+            {
+                "id": "c2_1_011",
+                "char": "巴",
+                "zhuyin": "ㄅㄚ",
+                "example": "下巴"
+            },
+            {
+                "id": "c2_1_012",
+                "char": "變",
+                "zhuyin": "ㄅㄧㄢˋ",
+                "example": "變成"
+            },
+            {
+                "id": "c2_1_013",
+                "char": "芭",
+                "zhuyin": "ㄅㄚ",
+                "example": "芭樂"
+            },
+            {
+                "id": "c2_1_014",
+                "char": "漂",
+                "zhuyin": "ㄆㄧㄠˋ",
+                "example": "漂亮"
+            },
+            {
+                "id": "c2_1_015",
+                "char": "胖",
+                "zhuyin": "ㄆㄤˋ",
+                "example": "肥胖"
+            },
+            {
+                "id": "c2_1_016",
+                "char": "匹",
+                "zhuyin": "ㄆㄧ",
+                "example": "馬匹"
+            },
+            {
+                "id": "c2_1_017",
+                "char": "佩",
+                "zhuyin": "ㄆㄟˋ",
+                "example": "敬佩"
+            },
+            {
+                "id": "c2_1_018",
+                "char": "飄",
+                "zhuyin": "ㄆㄧㄠ",
+                "example": "飄揚"
+            },
+            {
+                "id": "c2_1_019",
+                "char": "排",
+                "zhuyin": "ㄆㄞˊ",
+                "example": "排隊"
+            },
+            {
+                "id": "c2_1_020",
+                "char": "趴",
+                "zhuyin": "ㄆㄚ",
+                "example": "趴下"
+            },
+            {
+                "id": "c2_1_021",
+                "char": "摸",
+                "zhuyin": "ㄇㄛ",
+                "example": "摸黑"
+            },
+            {
+                "id": "c2_1_022",
+                "char": "明",
+                "zhuyin": "ㄇㄧㄥˊ",
+                "example": "明天"
+            },
+            {
+                "id": "c2_1_023",
+                "char": "忙",
+                "zhuyin": "ㄇㄤˊ",
+                "example": "急忙"
+            },
+            {
+                "id": "c2_1_024",
+                "char": "滿",
+                "zhuyin": "ㄇㄢˇ",
+                "example": "滿分"
+            },
+            {
+                "id": "c2_1_025",
+                "char": "民",
+                "zhuyin": "ㄇㄧㄣˊ",
+                "example": "人民"
+            },
+            {
+                "id": "c2_1_026",
+                "char": "賣",
+                "zhuyin": "ㄇㄞˋ",
+                "example": "買賣"
+            },
+            {
+                "id": "c2_1_027",
+                "char": "名",
+                "zhuyin": "ㄇㄧㄥˊ",
+                "example": "名字"
+            },
+            {
+                "id": "c2_1_028",
+                "char": "買",
+                "zhuyin": "ㄇㄞˇ",
+                "example": "買東西"
+            },
+            {
+                "id": "c2_1_029",
+                "char": "發",
+                "zhuyin": "ㄈㄚ",
+                "example": "發現"
+            },
+            {
+                "id": "c2_1_030",
+                "char": "福",
+                "zhuyin": "ㄈㄨˊ",
+                "example": "幸福"
+            },
+            {
+                "id": "c2_1_031",
+                "char": "夫",
+                "zhuyin": "ㄈㄨ",
+                "example": "農夫"
+            },
+            {
+                "id": "c2_1_032",
+                "char": "法",
+                "zhuyin": "ㄈㄚˇ",
+                "example": "方法"
+            },
+            {
+                "id": "c2_1_033",
+                "char": "翻",
+                "zhuyin": "ㄈㄢ",
+                "example": "翻開"
+            },
+            {
+                "id": "c2_1_034",
+                "char": "定",
+                "zhuyin": "ㄉㄧㄥˋ",
+                "example": "決定"
+            },
+            {
+                "id": "c2_1_035",
+                "char": "等",
+                "zhuyin": "ㄉㄥˇ",
+                "example": "等待"
+            },
+            {
+                "id": "c2_1_036",
+                "char": "當",
+                "zhuyin": "ㄉㄤ",
+                "example": "當然"
+            },
+            {
+                "id": "c2_1_037",
+                "char": "東",
+                "zhuyin": "ㄉㄨㄥ",
+                "example": "東西"
+            },
+            {
+                "id": "c2_1_038",
+                "char": "待",
+                "zhuyin": "ㄉㄞˋ",
+                "example": "期待"
+            },
+            {
+                "id": "c2_1_039",
+                "char": "單",
+                "zhuyin": "ㄉㄢ",
+                "example": "單純"
+            },
+            {
+                "id": "c2_1_040",
+                "char": "點",
+                "zhuyin": "ㄉㄧㄢˇ",
+                "example": "點頭"
+            },
+            {
+                "id": "c2_1_041",
+                "char": "動",
+                "zhuyin": "ㄉㄨㄥˋ",
+                "example": "動作"
+            },
+            {
+                "id": "c2_1_042",
+                "char": "答",
+                "zhuyin": "ㄉㄚˊ",
+                "example": "回答"
+            },
+            {
+                "id": "c2_1_043",
+                "char": "掉",
+                "zhuyin": "ㄉㄧㄠˋ",
+                "example": "掉落"
+            },
+            {
+                "id": "c2_1_044",
+                "char": "挺",
+                "zhuyin": "ㄊㄧㄥˇ",
+                "example": "挺胸"
+            },
+            {
+                "id": "c2_1_045",
+                "char": "抬",
+                "zhuyin": "ㄊㄞˊ",
+                "example": "抬頭"
+            },
+            {
+                "id": "c2_1_046",
+                "char": "吐",
+                "zhuyin": "ㄊㄨˇ",
+                "example": "吐氣"
+            },
+            {
+                "id": "c2_1_047",
+                "char": "塗",
+                "zhuyin": "ㄊㄨˊ",
+                "example": "塗鴉"
+            },
+            {
+                "id": "c2_1_048",
+                "char": "田",
+                "zhuyin": "ㄊㄧㄢˊ",
+                "example": "田地"
+            },
+            {
+                "id": "c2_1_049",
+                "char": "土",
+                "zhuyin": "ㄊㄨˇ",
+                "example": "泥土"
+            },
+            {
+                "id": "c2_1_050",
+                "char": "特",
+                "zhuyin": "ㄊㄜˋ",
+                "example": "特別"
+            },
+            {
+                "id": "c2_1_051",
+                "char": "兔",
+                "zhuyin": "ㄊㄨˋ",
+                "example": "兔子"
+            },
+            {
+                "id": "c2_1_052",
+                "char": "甜",
+                "zhuyin": "ㄊㄧㄢˊ",
+                "example": "甜美"
+            },
+            {
+                "id": "c2_1_053",
+                "char": "湯",
+                "zhuyin": "ㄊㄤ",
+                "example": "熱湯"
+            },
+            {
+                "id": "c2_1_054",
+                "char": "拿",
+                "zhuyin": "ㄋㄚˊ",
+                "example": "拿著"
+            },
+            {
+                "id": "c2_1_055",
+                "char": "娘",
+                "zhuyin": "ㄋㄧㄤˊ",
+                "example": "姑娘"
+            },
+            {
+                "id": "c2_1_056",
+                "char": "能",
+                "zhuyin": "ㄋㄥˊ",
+                "example": "能力"
+            },
+            {
+                "id": "c2_1_057",
+                "char": "那",
+                "zhuyin": "ㄋㄚˋ",
+                "example": "那裡"
+            },
+            {
+                "id": "c2_1_058",
+                "char": "南",
+                "zhuyin": "ㄋㄢˊ",
+                "example": "南方"
+            },
+            {
+                "id": "c2_1_059",
+                "char": "男",
+                "zhuyin": "ㄋㄢˊ",
+                "example": "男生"
+            },
+            {
+                "id": "c2_1_060",
+                "char": "臉",
+                "zhuyin": "ㄌㄧㄢˇ",
+                "example": "臉蛋"
+            },
+            {
+                "id": "c2_1_061",
+                "char": "麗",
+                "zhuyin": "ㄌㄧˋ",
+                "example": "美麗"
+            },
+            {
+                "id": "c2_1_062",
+                "char": "里",
+                "zhuyin": "ㄌㄧˇ",
+                "example": "鄰里"
+            },
+            {
+                "id": "c2_1_063",
+                "char": "旅",
+                "zhuyin": "ㄌㄩˇ",
+                "example": "旅行"
+            },
+            {
+                "id": "c2_1_064",
+                "char": "令",
+                "zhuyin": "ㄌㄧㄥˋ",
+                "example": "命令"
+            },
+            {
+                "id": "c2_1_065",
+                "char": "感",
+                "zhuyin": "ㄍㄢˇ",
+                "example": "感覺"
+            },
+            {
+                "id": "c2_1_066",
+                "char": "敢",
+                "zhuyin": "ㄍㄢˇ",
+                "example": "勇敢"
+            },
+            {
+                "id": "c2_1_067",
+                "char": "剛",
+                "zhuyin": "ㄍㄤ",
+                "example": "剛剛"
+            },
+            {
+                "id": "c2_1_068",
+                "char": "趕",
+                "zhuyin": "ㄍㄢˇ",
+                "example": "趕快"
+            },
+            {
+                "id": "c2_1_069",
+                "char": "乾",
+                "zhuyin": "ㄍㄢ",
+                "example": "乾淨"
+            },
+            {
+                "id": "c2_1_070",
+                "char": "狗",
+                "zhuyin": "ㄍㄡˇ",
+                "example": "小狗"
+            },
+            {
+                "id": "c2_1_071",
+                "char": "耕",
+                "zhuyin": "ㄍㄥ",
+                "example": "耕田"
+            },
+            {
+                "id": "c2_1_072",
+                "char": "課",
+                "zhuyin": "ㄎㄜˋ",
+                "example": "上課"
+            },
+            {
+                "id": "c2_1_073",
+                "char": "苦",
+                "zhuyin": "ㄎㄨˇ",
+                "example": "辛苦"
+            },
+            {
+                "id": "c2_1_074",
+                "char": "渴",
+                "zhuyin": "ㄎㄜˇ",
+                "example": "口渴"
+            },
+            {
+                "id": "c2_1_075",
+                "char": "畫",
+                "zhuyin": "ㄏㄨㄚˋ",
+                "example": "畫圖"
+            },
+            {
+                "id": "c2_1_076",
+                "char": "活",
+                "zhuyin": "ㄏㄨㄛˊ",
+                "example": "生活"
+            },
+            {
+                "id": "c2_1_077",
+                "char": "後",
+                "zhuyin": "ㄏㄡˋ",
+                "example": "後面"
+            },
+            {
+                "id": "c2_1_078",
+                "char": "黃",
+                "zhuyin": "ㄏㄨㄤˊ",
+                "example": "黃色"
+            },
+            {
+                "id": "c2_1_079",
+                "char": "蝴",
+                "zhuyin": "ㄏㄨˊ",
+                "example": "蝴蝶"
+            },
+            {
+                "id": "c2_1_080",
+                "char": "忽",
+                "zhuyin": "ㄏㄨ",
+                "example": "忽然"
+            },
+            {
+                "id": "c2_1_081",
+                "char": "害",
+                "zhuyin": "ㄏㄞˋ",
+                "example": "害怕"
+            },
+            {
+                "id": "c2_1_082",
+                "char": "呼",
+                "zhuyin": "ㄏㄨ",
+                "example": "呼吸"
+            },
+            {
+                "id": "c2_1_083",
+                "char": "教",
+                "zhuyin": "ㄐㄧㄠˋ",
+                "example": "教室"
+            },
+            {
+                "id": "c2_1_084",
+                "char": "精",
+                "zhuyin": "ㄐㄧㄥ",
+                "example": "精神"
+            },
+            {
+                "id": "c2_1_085",
+                "char": "記",
+                "zhuyin": "ㄐㄧˋ",
+                "example": "記得"
+            },
+            {
+                "id": "c2_1_086",
+                "char": "結",
+                "zhuyin": "ㄐㄧㄝˊ",
+                "example": "結束"
+            },
+            {
+                "id": "c2_1_087",
+                "char": "覺",
+                "zhuyin": "ㄐㄩㄝˊ",
+                "example": "覺得"
+            },
+            {
+                "id": "c2_1_088",
+                "char": "接",
+                "zhuyin": "ㄐㄧㄝ",
+                "example": "接受"
+            },
+            {
+                "id": "c2_1_089",
+                "char": "嫁",
+                "zhuyin": "ㄐㄧㄚˋ",
+                "example": "出嫁"
+            },
+            {
+                "id": "c2_1_090",
+                "char": "決",
+                "zhuyin": "ㄐㄩㄝˊ",
+                "example": "決定"
+            },
+            {
+                "id": "c2_1_091",
+                "char": "進",
+                "zhuyin": "ㄐㄧㄣˋ",
+                "example": "進去"
+            },
+            {
+                "id": "c2_1_092",
+                "char": "叫",
+                "zhuyin": "ㄐㄧㄠˋ",
+                "example": "叫聲"
+            },
+            {
+                "id": "c2_1_093",
+                "char": "急",
+                "zhuyin": "ㄐㄧˊ",
+                "example": "著急"
+            },
+            {
+                "id": "c2_1_094",
+                "char": "敬",
+                "zhuyin": "ㄐㄧㄥˋ",
+                "example": "敬愛"
+            },
+            {
+                "id": "c2_1_095",
+                "char": "節",
+                "zhuyin": "ㄐㄧㄝˊ",
+                "example": "節日"
+            },
+            {
+                "id": "c2_1_096",
+                "char": "尖",
+                "zhuyin": "ㄐㄧㄢ",
+                "example": "尖銳"
+            },
+            {
+                "id": "c2_1_097",
+                "char": "蕉",
+                "zhuyin": "ㄐㄧㄠ",
+                "example": "香蕉"
+            },
+            {
+                "id": "c2_1_098",
+                "char": "加",
+                "zhuyin": "ㄐㄧㄚ",
+                "example": "參加"
+            },
+            {
+                "id": "c2_1_099",
+                "char": "期",
+                "zhuyin": "ㄑㄧˊ",
+                "example": "星期"
+            },
+            {
+                "id": "c2_1_100",
+                "char": "奇",
+                "zhuyin": "ㄑㄧˊ",
+                "example": "奇怪"
+            },
+            {
+                "id": "c2_1_101",
+                "char": "親",
+                "zhuyin": "ㄑㄧㄣ",
+                "example": "親切"
+            },
+            {
+                "id": "c2_1_102",
+                "char": "前",
+                "zhuyin": "ㄑㄧㄢˊ",
+                "example": "前面"
+            },
+            {
+                "id": "c2_1_103",
+                "char": "娶",
+                "zhuyin": "ㄑㄩˇ",
+                "example": "迎娶"
+            },
+            {
+                "id": "c2_1_104",
+                "char": "區",
+                "zhuyin": "ㄑㄩ",
+                "example": "地區"
+            },
+            {
+                "id": "c2_1_105",
+                "char": "現",
+                "zhuyin": "ㄒㄧㄢˋ",
+                "example": "現在"
+            },
+            {
+                "id": "c2_1_106",
+                "char": "騎",
+                "zhuyin": "ㄑㄧˊ",
+                "example": "騎車"
+            },
+            {
+                "id": "c2_1_107",
+                "char": "香",
+                "zhuyin": "ㄒㄧㄤ",
+                "example": "香氣"
+            },
+            {
+                "id": "c2_1_108",
+                "char": "西",
+                "zhuyin": "ㄒㄧ",
+                "example": "西方"
+            },
+            {
+                "id": "c2_1_109",
+                "char": "惜",
+                "zhuyin": "ㄒㄧˊ",
+                "example": "愛惜"
+            },
+            {
+                "id": "c2_1_110",
+                "char": "信",
+                "zhuyin": "ㄒㄧㄣˋ",
+                "example": "相信"
+            },
+            {
+                "id": "c2_1_111",
+                "char": "幸",
+                "zhuyin": "ㄒㄧㄥˋ",
+                "example": "幸福"
+            },
+            {
+                "id": "c2_1_112",
+                "char": "辛",
+                "zhuyin": "ㄒㄧㄣ",
+                "example": "辛苦"
+            },
+            {
+                "id": "c2_1_113",
+                "char": "休",
+                "zhuyin": "ㄒㄧㄡ",
+                "example": "休息"
+            },
+            {
+                "id": "c2_1_114",
+                "char": "息",
+                "zhuyin": "ㄒㄧˊ",
+                "example": "氣息"
+            },
+            {
+                "id": "c2_1_115",
+                "char": "相",
+                "zhuyin": "ㄒㄧㄤ",
+                "example": "相信"
+            },
+            {
+                "id": "c2_1_116",
+                "char": "些",
+                "zhuyin": "ㄒㄧㄝ",
+                "example": "這些"
+            },
+            {
+                "id": "c2_1_117",
+                "char": "興",
+                "zhuyin": "ㄒㄧㄥ",
+                "example": "高興"
+            },
+            {
+                "id": "c2_1_118",
+                "char": "邪",
+                "zhuyin": "ㄒㄧㄝˊ",
+                "example": "邪惡"
+            },
+            {
+                "id": "c2_1_119",
+                "char": "習",
+                "zhuyin": "ㄒㄧˊ",
+                "example": "學習"
+            },
+            {
+                "id": "c2_1_120",
+                "char": "鄉",
+                "zhuyin": "ㄒㄧㄤ",
+                "example": "故鄉"
+            },
+            {
+                "id": "c2_1_121",
+                "char": "小",
+                "zhuyin": "ㄒㄧㄠˇ",
+                "example": "大小"
+            },
+            {
+                "id": "c2_1_122",
+                "char": "桌",
+                "zhuyin": "ㄓㄨㄛ",
+                "example": "桌子"
+            },
+            {
+                "id": "c2_1_123",
+                "char": "知",
+                "zhuyin": "ㄓ",
+                "example": "知道"
+            },
+            {
+                "id": "c2_1_124",
+                "char": "正",
+                "zhuyin": "ㄓㄥˋ",
+                "example": "正常"
+            },
+            {
+                "id": "c2_1_125",
+                "char": "妝",
+                "zhuyin": "ㄓㄨㄤ",
+                "example": "化妝"
+            },
+            {
+                "id": "c2_1_126",
+                "char": "種",
+                "zhuyin": "ㄓㄨㄥˇ",
+                "example": "種子"
+            },
+            {
+                "id": "c2_1_127",
+                "char": "助",
+                "zhuyin": "ㄓㄨˋ",
+                "example": "幫助"
+            },
+            {
+                "id": "c2_1_128",
+                "char": "針",
+                "zhuyin": "ㄓㄣ",
+                "example": "打針"
+            },
+            {
+                "id": "c2_1_129",
+                "char": "找",
+                "zhuyin": "ㄓㄠˇ",
+                "example": "尋找"
+            },
+            {
+                "id": "c2_1_130",
+                "char": "裝",
+                "zhuyin": "ㄓㄨㄤ",
+                "example": "裝扮"
+            },
+            {
+                "id": "c2_1_131",
+                "char": "鎮",
+                "zhuyin": "ㄓㄣˋ",
+                "example": "小鎮"
+            },
+            {
+                "id": "c2_1_132",
+                "char": "陣",
+                "zhuyin": "ㄓㄣˋ",
+                "example": "一陣"
+            },
+            {
+                "id": "c2_1_133",
+                "char": "豬",
+                "zhuyin": "ㄓㄨ",
+                "example": "小豬"
+            },
+            {
+                "id": "c2_1_134",
+                "char": "床",
+                "zhuyin": "ㄔㄨㄤˊ",
+                "example": "起床"
+            },
+            {
+                "id": "c2_1_135",
+                "char": "差",
+                "zhuyin": "ㄔㄚ",
+                "example": "差別"
+            },
+            {
+                "id": "c2_1_136",
+                "char": "陳",
+                "zhuyin": "ㄔㄣˊ",
+                "example": "陳列"
+            },
+            {
+                "id": "c2_1_137",
+                "char": "臣",
+                "zhuyin": "ㄔㄣˊ",
+                "example": "大臣"
+            },
+            {
+                "id": "c2_1_138",
+                "char": "吵",
+                "zhuyin": "ㄔㄠˇ",
+                "example": "吵鬧"
+            },
+            {
+                "id": "c2_1_139",
+                "char": "場",
+                "zhuyin": "ㄔㄤˇ",
+                "example": "操場"
+            },
+            {
+                "id": "c2_1_140",
+                "char": "室",
+                "zhuyin": "ㄕˋ",
+                "example": "教室"
+            },
+            {
+                "id": "c2_1_141",
+                "char": "身",
+                "zhuyin": "ㄕㄣ",
+                "example": "身體"
+            },
+            {
+                "id": "c2_1_142",
+                "char": "始",
+                "zhuyin": "ㄕˇ",
+                "example": "開始"
+            },
+            {
+                "id": "c2_1_143",
+                "char": "書",
+                "zhuyin": "ㄕㄨ",
+                "example": "看書"
+            },
+            {
+                "id": "c2_1_144",
+                "char": "伸",
+                "zhuyin": "ㄕㄣ",
+                "example": "伸展"
+            },
+            {
+                "id": "c2_1_145",
+                "char": "什",
+                "zhuyin": "ㄕㄜˊ",
+                "example": "什麼"
+            },
+            {
+                "id": "c2_1_146",
+                "char": "叔",
+                "zhuyin": "ㄕㄨˊ",
+                "example": "叔叔"
+            },
+            {
+                "id": "c2_1_147",
+                "char": "社",
+                "zhuyin": "ㄕㄜˋ",
+                "example": "社會"
+            },
+            {
+                "id": "c2_1_148",
+                "char": "受",
+                "zhuyin": "ㄕㄡˋ",
+                "example": "接受"
+            },
+            {
+                "id": "c2_1_149",
+                "char": "石",
+                "zhuyin": "ㄕˊ",
+                "example": "石頭"
+            },
+            {
+                "id": "c2_1_150",
+                "char": "升",
+                "zhuyin": "ㄕㄥ",
+                "example": "升旗"
+            },
+            {
+                "id": "c2_1_151",
+                "char": "柿",
+                "zhuyin": "ㄕˋ",
+                "example": "柿子"
+            },
+            {
+                "id": "c2_1_152",
+                "char": "讓",
+                "zhuyin": "ㄖㄤˋ",
+                "example": "讓開"
+            },
+            {
+                "id": "c2_1_153",
+                "char": "然",
+                "zhuyin": "ㄖㄢˊ",
+                "example": "然後"
+            },
+            {
+                "id": "c2_1_154",
+                "char": "如",
+                "zhuyin": "ㄖㄨˊ",
+                "example": "如果"
+            },
+            {
+                "id": "c2_1_155",
+                "char": "做",
+                "zhuyin": "ㄗㄨㄛˋ",
+                "example": "做事"
+            },
+            {
+                "id": "c2_1_156",
+                "char": "字",
+                "zhuyin": "ㄗˋ",
+                "example": "寫字"
+            },
+            {
+                "id": "c2_1_157",
+                "char": "左",
+                "zhuyin": "ㄗㄨㄛˇ",
+                "example": "左邊"
+            },
+            {
+                "id": "c2_1_158",
+                "char": "座",
+                "zhuyin": "ㄗㄨㄛˋ",
+                "example": "座位"
+            },
+            {
+                "id": "c2_1_159",
+                "char": "採",
+                "zhuyin": "ㄘㄞˇ",
+                "example": "採花"
+            },
+            {
+                "id": "c2_1_160",
+                "char": "從",
+                "zhuyin": "ㄘㄨㄥˊ",
+                "example": "從前"
+            },
+            {
+                "id": "c2_1_161",
+                "char": "存",
+                "zhuyin": "ㄘㄨㄣˊ",
+                "example": "存款"
+            },
+            {
+                "id": "c2_1_162",
+                "char": "聰",
+                "zhuyin": "ㄘㄨㄥ",
+                "example": "聰明"
+            },
+            {
+                "id": "c2_1_163",
+                "char": "才",
+                "zhuyin": "ㄘㄞˊ",
+                "example": "剛才"
+            },
+            {
+                "id": "c2_1_164",
+                "char": "此",
+                "zhuyin": "ㄘˇ",
+                "example": "因此"
+            },
+            {
+                "id": "c2_1_165",
+                "char": "參",
+                "zhuyin": "ㄘㄢ",
+                "example": "參加"
+            },
+            {
+                "id": "c2_1_166",
+                "char": "司",
+                "zhuyin": "ㄙ",
+                "example": "司機"
+            },
+            {
+                "id": "c2_1_167",
+                "char": "思",
+                "zhuyin": "ㄙ",
+                "example": "思想"
+            },
+            {
+                "id": "c2_1_168",
+                "char": "森",
+                "zhuyin": "ㄙㄣ",
+                "example": "森林"
+            },
+            {
+                "id": "c2_1_169",
+                "char": "俗",
+                "zhuyin": "ㄙㄨˊ",
+                "example": "風俗"
+            },
+            {
+                "id": "c2_1_170",
+                "char": "腰",
+                "zhuyin": "ㄧㄠ",
+                "example": "彎腰"
+            },
+            {
+                "id": "c2_1_171",
+                "char": "以",
+                "zhuyin": "ㄧˇ",
+                "example": "以後"
+            },
+            {
+                "id": "c2_1_172",
+                "char": "樣",
+                "zhuyin": "ㄧㄤˋ",
+                "example": "樣子"
+            },
+            {
+                "id": "c2_1_173",
+                "char": "衣",
+                "zhuyin": "ㄧ",
+                "example": "衣服"
+            },
+            {
+                "id": "c2_1_174",
+                "char": "右",
+                "zhuyin": "ㄧㄡˋ",
+                "example": "右邊"
+            },
+            {
+                "id": "c2_1_175",
+                "char": "因",
+                "zhuyin": "ㄧㄣ",
+                "example": "因為"
+            },
+            {
+                "id": "c2_1_176",
+                "char": "意",
+                "zhuyin": "ㄧˋ",
+                "example": "意思"
+            },
+            {
+                "id": "c2_1_177",
+                "char": "位",
+                "zhuyin": "ㄨㄟˋ",
+                "example": "座位"
+            },
+            {
+                "id": "c2_1_178",
+                "char": "物",
+                "zhuyin": "ㄨˋ",
+                "example": "動物"
+            },
+            {
+                "id": "c2_1_179",
+                "char": "握",
+                "zhuyin": "ㄨㄛˋ",
+                "example": "握手"
+            },
+            {
+                "id": "c2_1_180",
+                "char": "味",
+                "zhuyin": "ㄨㄟˋ",
+                "example": "味道"
+            },
+            {
+                "id": "c2_1_181",
+                "char": "屋",
+                "zhuyin": "ㄨ",
+                "example": "房屋"
+            },
+            {
+                "id": "c2_1_182",
+                "char": "午",
+                "zhuyin": "ㄨˇ",
+                "example": "中午"
+            },
+            {
+                "id": "c2_1_183",
+                "char": "烏",
+                "zhuyin": "ㄨ",
+                "example": "烏鴉"
+            },
+            {
+                "id": "c2_1_184",
+                "char": "外",
+                "zhuyin": "ㄨㄞˋ",
+                "example": "外面"
+            },
+            {
+                "id": "c2_1_185",
+                "char": "忘",
+                "zhuyin": "ㄨㄤˋ",
+                "example": "忘記"
+            },
+            {
+                "id": "c2_1_186",
+                "char": "運",
+                "zhuyin": "ㄩㄣˋ",
+                "example": "運動"
+            },
+            {
+                "id": "c2_1_187",
+                "char": "越",
+                "zhuyin": "ㄩㄝˋ",
+                "example": "越來越"
+            },
+            {
+                "id": "c2_1_188",
+                "char": "元",
+                "zhuyin": "ㄩㄢˊ",
+                "example": "一元"
+            },
+            {
+                "id": "c2_1_189",
+                "char": "矮",
+                "zhuyin": "ㄞˇ",
+                "example": "高矮"
+            },
+            {
+                "id": "c2_1_190",
+                "char": "額",
+                "zhuyin": "ㄜˊ",
+                "example": "額頭"
+            },
+            {
+                "id": "c2_1_191",
+                "char": "可",
+                "zhuyin": "ㄎㄜˇ",
+                "example": "可以"
+            },
+            {
+                "id": "c2_1_192",
+                "char": "惡",
+                "zhuyin": "ㄜˋ",
+                "example": "邪惡"
+            },
+            {
+                "id": "c2_1_193",
+                "char": "阿",
+                "zhuyin": "ㄚ",
+                "example": "阿姨"
+            },
+            {
+                "id": "c2_1_194",
+                "char": "暗",
+                "zhuyin": "ㄢˋ",
+                "example": "黑暗"
+            },
+            {
+                "id": "c2_1_195",
+                "char": "案",
+                "zhuyin": "ㄢˋ",
+                "example": "答案"
+            },
+            {
+                "id": "c2_1_196",
+                "char": "而",
+                "zhuyin": "ㄦˊ",
+                "example": "而且"
+            },
+            {
+                "id": "c2_1_197",
+                "char": "兒",
+                "zhuyin": "ㄦˊ",
+                "example": "兒童"
+            },
+            {
+                "id": "c2_1_198",
+                "char": "莓",
+                "zhuyin": "ㄇㄟˊ",
+                "example": "草莓"
+            },
+            {
+                "id": "c2_1_199",
+                "char": "瓶",
+                "zhuyin": "ㄆㄧㄥˊ",
+                "example": "瓶子"
+            },
+            {
+                "id": "c2_1_200",
+                "char": "臂",
+                "zhuyin": "ㄅㄧˋ",
+                "example": "手臂"
+            },
+            {
+                "id": "c2_1_201",
+                "char": "埔",
+                "zhuyin": "ㄆㄨˇ",
+                "example": "埔里"
+            },
+            {
+                "id": "c2_1_202",
+                "char": "農",
+                "zhuyin": "ㄋㄨㄥˊ",
+                "example": "農夫"
+            },
+            {
+                "id": "c2_1_203",
+                "char": "圖",
+                "zhuyin": "ㄊㄨˊ",
+                "example": "圖畫"
+            },
+            {
+                "id": "c2_1_204",
+                "char": "廊",
+                "zhuyin": "ㄌㄤˊ",
+                "example": "走廊"
+            }
+        ]
+    },
+    {
+        "grade": 2,
+        "semester": 2,
+        "characters": [
+            {
+                "id": "c2_2_001",
+                "char": "臂",
+                "zhuyin": "ㄅㄧˋ",
+                "example": "手臂"
+            },
+            {
+                "id": "c2_2_002",
+                "char": "拔",
+                "zhuyin": "ㄅㄚˊ",
+                "example": "拔河"
+            },
+            {
+                "id": "c2_2_003",
+                "char": "棒",
+                "zhuyin": "ㄅㄤˋ",
+                "example": "很棒"
+            },
+            {
+                "id": "c2_2_004",
+                "char": "餅",
+                "zhuyin": "ㄅㄧㄥˇ",
+                "example": "餅乾"
+            },
+            {
+                "id": "c2_2_005",
+                "char": "卑",
+                "zhuyin": "ㄅㄟ",
+                "example": "自卑"
+            },
+            {
+                "id": "c2_2_006",
+                "char": "波",
+                "zhuyin": "ㄅㄛ",
+                "example": "波浪"
+            },
+            {
+                "id": "c2_2_007",
+                "char": "並",
+                "zhuyin": "ㄅㄧㄥˋ",
+                "example": "並且"
+            },
+            {
+                "id": "c2_2_008",
+                "char": "步",
+                "zhuyin": "ㄅㄨˋ",
+                "example": "跑步"
+            },
+            {
+                "id": "c2_2_009",
+                "char": "膀",
+                "zhuyin": "ㄅㄤˇ",
+                "example": "肩膀"
+            },
+            {
+                "id": "c2_2_010",
+                "char": "病",
+                "zhuyin": "ㄅㄧㄥˋ",
+                "example": "生病"
+            },
+            {
+                "id": "c2_2_011",
+                "char": "保",
+                "zhuyin": "ㄅㄠˇ",
+                "example": "保護"
+            },
+            {
+                "id": "c2_2_012",
+                "char": "辨",
+                "zhuyin": "ㄅㄧㄢˋ",
+                "example": "分辨"
+            },
+            {
+                "id": "c2_2_013",
+                "char": "拜",
+                "zhuyin": "ㄅㄞˋ",
+                "example": "拜訪"
+            },
+            {
+                "id": "c2_2_014",
+                "char": "辦",
+                "zhuyin": "ㄅㄢˋ",
+                "example": "辦事"
+            },
+            {
+                "id": "c2_2_015",
+                "char": "布",
+                "zhuyin": "ㄅㄨˋ",
+                "example": "帆布"
+            },
+            {
+                "id": "c2_2_016",
+                "char": "筆",
+                "zhuyin": "ㄅㄧˇ",
+                "example": "鉛筆"
+            },
+            {
+                "id": "c2_2_017",
+                "char": "旁",
+                "zhuyin": "ㄆㄤˊ",
+                "example": "旁邊"
+            },
+            {
+                "id": "c2_2_018",
+                "char": "爬",
+                "zhuyin": "ㄆㄚˊ",
+                "example": "爬樹"
+            },
+            {
+                "id": "c2_2_019",
+                "char": "品",
+                "zhuyin": "ㄆㄧㄣˇ",
+                "example": "物品"
+            },
+            {
+                "id": "c2_2_020",
+                "char": "皮",
+                "zhuyin": "ㄆㄧˊ",
+                "example": "橡皮"
+            },
+            {
+                "id": "c2_2_021",
+                "char": "派",
+                "zhuyin": "ㄆㄞˋ",
+                "example": "派人"
+            },
+            {
+                "id": "c2_2_022",
+                "char": "螞",
+                "zhuyin": "ㄇㄚˇ",
+                "example": "螞蟻"
+            },
+            {
+                "id": "c2_2_023",
+                "char": "嗎",
+                "zhuyin": "ㄇㄚ˙",
+                "example": "好嗎"
+            },
+            {
+                "id": "c2_2_024",
+                "char": "芒",
+                "zhuyin": "ㄇㄤˊ",
+                "example": "光芒"
+            },
+            {
+                "id": "c2_2_025",
+                "char": "貓",
+                "zhuyin": "ㄇㄠ",
+                "example": "小貓"
+            },
+            {
+                "id": "c2_2_026",
+                "char": "咪",
+                "zhuyin": "ㄇㄧ",
+                "example": "貓咪"
+            },
+            {
+                "id": "c2_2_027",
+                "char": "妙",
+                "zhuyin": "ㄇㄧㄠˋ",
+                "example": "奇妙"
+            },
+            {
+                "id": "c2_2_028",
+                "char": "蜜",
+                "zhuyin": "ㄇㄧˋ",
+                "example": "蜂蜜"
+            },
+            {
+                "id": "c2_2_029",
+                "char": "母",
+                "zhuyin": "ㄇㄨˇ",
+                "example": "母親"
+            },
+            {
+                "id": "c2_2_030",
+                "char": "慕",
+                "zhuyin": "ㄇㄨˋ",
+                "example": "羨慕"
+            },
+            {
+                "id": "c2_2_031",
+                "char": "麻",
+                "zhuyin": "ㄇㄚˊ",
+                "example": "麻煩"
+            },
+            {
+                "id": "c2_2_032",
+                "char": "命",
+                "zhuyin": "ㄇㄧㄥˋ",
+                "example": "生命"
+            },
+            {
+                "id": "c2_2_033",
+                "char": "服",
+                "zhuyin": "ㄈㄨˊ",
+                "example": "衣服"
+            },
+            {
+                "id": "c2_2_034",
+                "char": "附",
+                "zhuyin": "ㄈㄨˋ",
+                "example": "附近"
+            },
+            {
+                "id": "c2_2_035",
+                "char": "飛",
+                "zhuyin": "ㄈㄟ",
+                "example": "飛機"
+            },
+            {
+                "id": "c2_2_036",
+                "char": "伏",
+                "zhuyin": "ㄈㄨˊ",
+                "example": "趴伏"
+            },
+            {
+                "id": "c2_2_037",
+                "char": "婦",
+                "zhuyin": "ㄈㄨˋ",
+                "example": "婦女"
+            },
+            {
+                "id": "c2_2_038",
+                "char": "飯",
+                "zhuyin": "ㄈㄢˋ",
+                "example": "吃飯"
+            },
+            {
+                "id": "c2_2_039",
+                "char": "幅",
+                "zhuyin": "ㄈㄨˊ",
+                "example": "一幅"
+            },
+            {
+                "id": "c2_2_040",
+                "char": "復",
+                "zhuyin": "ㄈㄨˋ",
+                "example": "恢復"
+            },
+            {
+                "id": "c2_2_041",
+                "char": "訪",
+                "zhuyin": "ㄈㄤˇ",
+                "example": "拜訪"
+            },
+            {
+                "id": "c2_2_042",
+                "char": "凡",
+                "zhuyin": "ㄈㄢˊ",
+                "example": "平凡"
+            },
+            {
+                "id": "c2_2_043",
+                "char": "躲",
+                "zhuyin": "ㄉㄨㄛˇ",
+                "example": "躲藏"
+            },
+            {
+                "id": "c2_2_044",
+                "char": "稻",
+                "zhuyin": "ㄉㄠˋ",
+                "example": "稻子"
+            },
+            {
+                "id": "c2_2_045",
+                "char": "蹈",
+                "zhuyin": "ㄉㄠˋ",
+                "example": "舞蹈"
+            },
+            {
+                "id": "c2_2_046",
+                "char": "燈",
+                "zhuyin": "ㄉㄥ",
+                "example": "電燈"
+            },
+            {
+                "id": "c2_2_047",
+                "char": "蛋",
+                "zhuyin": "ㄉㄢˋ",
+                "example": "雞蛋"
+            },
+            {
+                "id": "c2_2_048",
+                "char": "電",
+                "zhuyin": "ㄉㄧㄢˋ",
+                "example": "電視"
+            },
+            {
+                "id": "c2_2_049",
+                "char": "讀",
+                "zhuyin": "ㄉㄨˊ",
+                "example": "讀書"
+            },
+            {
+                "id": "c2_2_050",
+                "char": "導",
+                "zhuyin": "ㄉㄠˇ",
+                "example": "導師"
+            },
+            {
+                "id": "c2_2_051",
+                "char": "代",
+                "zhuyin": "ㄉㄞˋ",
+                "example": "代表"
+            },
+            {
+                "id": "c2_2_052",
+                "char": "圖",
+                "zhuyin": "ㄊㄨˊ",
+                "example": "圖書館"
+            },
+            {
+                "id": "c2_2_053",
+                "char": "庭",
+                "zhuyin": "ㄊㄧㄥˊ",
+                "example": "家庭"
+            },
+            {
+                "id": "c2_2_054",
+                "char": "同",
+                "zhuyin": "ㄊㄨㄥˊ",
+                "example": "同學"
+            },
+            {
+                "id": "c2_2_055",
+                "char": "通",
+                "zhuyin": "ㄊㄨㄥ",
+                "example": "通過"
+            },
+            {
+                "id": "c2_2_056",
+                "char": "題",
+                "zhuyin": "ㄊㄧˊ",
+                "example": "問題"
+            },
+            {
+                "id": "c2_2_057",
+                "char": "童",
+                "zhuyin": "ㄊㄨㄥˊ",
+                "example": "兒童"
+            },
+            {
+                "id": "c2_2_058",
+                "char": "提",
+                "zhuyin": "ㄊㄧˊ",
+                "example": "提醒"
+            },
+            {
+                "id": "c2_2_059",
+                "char": "鴕",
+                "zhuyin": "ㄊㄨㄛˊ",
+                "example": "鴕鳥"
+            },
+            {
+                "id": "c2_2_060",
+                "char": "逃",
+                "zhuyin": "ㄊㄠˊ",
+                "example": "逃跑"
+            },
+            {
+                "id": "c2_2_061",
+                "char": "突",
+                "zhuyin": "ㄊㄨˊ",
+                "example": "突然"
+            },
+            {
+                "id": "c2_2_062",
+                "char": "偷",
+                "zhuyin": "ㄊㄡ",
+                "example": "小偷"
+            },
+            {
+                "id": "c2_2_063",
+                "char": "輛",
+                "zhuyin": "ㄌㄧㄤˋ",
+                "example": "車輛"
+            },
+            {
+                "id": "c2_2_064",
+                "char": "樓",
+                "zhuyin": "ㄌㄡˊ",
+                "example": "樓梯"
+            },
+            {
+                "id": "c2_2_065",
+                "char": "落",
+                "zhuyin": "ㄌㄨㄛˋ",
+                "example": "掉落"
+            },
+            {
+                "id": "c2_2_066",
+                "char": "蘆",
+                "zhuyin": "ㄌㄨˊ",
+                "example": "蘆葦"
+            },
+            {
+                "id": "c2_2_067",
+                "char": "輪",
+                "zhuyin": "ㄌㄨㄣˊ",
+                "example": "輪胎"
+            },
+            {
+                "id": "c2_2_068",
+                "char": "涼",
+                "zhuyin": "ㄌㄧㄤˊ",
+                "example": "涼快"
+            },
+            {
+                "id": "c2_2_069",
+                "char": "列",
+                "zhuyin": "ㄌㄧㄝˋ",
+                "example": "排列"
+            },
+            {
+                "id": "c2_2_070",
+                "char": "裂",
+                "zhuyin": "ㄌㄧㄝˋ",
+                "example": "裂開"
+            },
+            {
+                "id": "c2_2_071",
+                "char": "流",
+                "zhuyin": "ㄌㄧㄡˊ",
+                "example": "河流"
+            },
+            {
+                "id": "c2_2_072",
+                "char": "領",
+                "zhuyin": "ㄌㄧㄥˇ",
+                "example": "帶領"
+            },
+            {
+                "id": "c2_2_073",
+                "char": "連",
+                "zhuyin": "ㄌㄧㄢˊ",
+                "example": "連接"
+            },
+            {
+                "id": "c2_2_074",
+                "char": "滾",
+                "zhuyin": "ㄍㄨㄣˇ",
+                "example": "打滾"
+            },
+            {
+                "id": "c2_2_075",
+                "char": "鬼",
+                "zhuyin": "ㄍㄨㄟˇ",
+                "example": "鬼怪"
+            },
+            {
+                "id": "c2_2_076",
+                "char": "跟",
+                "zhuyin": "ㄍㄣ",
+                "example": "跟著"
+            },
+            {
+                "id": "c2_2_077",
+                "char": "各",
+                "zhuyin": "ㄍㄜˋ",
+                "example": "各自"
+            },
+            {
+                "id": "c2_2_078",
+                "char": "掛",
+                "zhuyin": "ㄍㄨㄚˋ",
+                "example": "掛號"
+            },
+            {
+                "id": "c2_2_079",
+                "char": "港",
+                "zhuyin": "ㄍㄤˇ",
+                "example": "港口"
+            },
+            {
+                "id": "c2_2_080",
+                "char": "蓋",
+                "zhuyin": "ㄍㄞˋ",
+                "example": "蓋子"
+            },
+            {
+                "id": "c2_2_081",
+                "char": "管",
+                "zhuyin": "ㄍㄨㄢˇ",
+                "example": "管理"
+            },
+            {
+                "id": "c2_2_082",
+                "char": "怪",
+                "zhuyin": "ㄍㄨㄞˋ",
+                "example": "奇怪"
+            },
+            {
+                "id": "c2_2_083",
+                "char": "告",
+                "zhuyin": "ㄍㄠˋ",
+                "example": "告訴"
+            },
+            {
+                "id": "c2_2_084",
+                "char": "關",
+                "zhuyin": "ㄍㄨㄢ",
+                "example": "關門"
+            },
+            {
+                "id": "c2_2_085",
+                "char": "糕",
+                "zhuyin": "ㄍㄠ",
+                "example": "蛋糕"
+            },
+            {
+                "id": "c2_2_086",
+                "char": "古",
+                "zhuyin": "ㄍㄨˇ",
+                "example": "古代"
+            },
+            {
+                "id": "c2_2_087",
+                "char": "顧",
+                "zhuyin": "ㄍㄨˋ",
+                "example": "照顧"
+            },
+            {
+                "id": "c2_2_088",
+                "char": "官",
+                "zhuyin": "ㄍㄨㄢ",
+                "example": "官員"
+            },
+            {
+                "id": "c2_2_089",
+                "char": "弓",
+                "zhuyin": "ㄍㄨㄥ",
+                "example": "弓箭"
+            },
+            {
+                "id": "c2_2_090",
+                "char": "冠",
+                "zhuyin": "ㄍㄨㄢ",
+                "example": "皇冠"
+            },
+            {
+                "id": "c2_2_091",
+                "char": "埂",
+                "zhuyin": "ㄍㄥˇ",
+                "example": "田埂"
+            },
+            {
+                "id": "c2_2_092",
+                "char": "館",
+                "zhuyin": "ㄍㄨㄢˇ",
+                "example": "圖書館"
+            },
+            {
+                "id": "c2_2_093",
+                "char": "康",
+                "zhuyin": "ㄎㄤ",
+                "example": "健康"
+            },
+            {
+                "id": "c2_2_094",
+                "char": "庫",
+                "zhuyin": "ㄎㄨˋ",
+                "example": "車庫"
+            },
+            {
+                "id": "c2_2_095",
+                "char": "灰",
+                "zhuyin": "ㄏㄨㄟ",
+                "example": "灰色"
+            },
+            {
+                "id": "c2_2_096",
+                "char": "或",
+                "zhuyin": "ㄏㄨㄛˋ",
+                "example": "或者"
+            },
+            {
+                "id": "c2_2_097",
+                "char": "汗",
+                "zhuyin": "ㄏㄢˋ",
+                "example": "流汗"
+            },
+            {
+                "id": "c2_2_098",
+                "char": "護",
+                "zhuyin": "ㄏㄨˋ",
+                "example": "保護"
+            },
+            {
+                "id": "c2_2_099",
+                "char": "猴",
+                "zhuyin": "ㄏㄡˊ",
+                "example": "猴子"
+            },
+            {
+                "id": "c2_2_100",
+                "char": "何",
+                "zhuyin": "ㄏㄜˊ",
+                "example": "任何"
+            },
+            {
+                "id": "c2_2_101",
+                "char": "黃",
+                "zhuyin": "ㄏㄨㄤˊ",
+                "example": "黃色"
+            },
+            {
+                "id": "c2_2_102",
+                "char": "揮",
+                "zhuyin": "ㄏㄨㄟ",
+                "example": "指揮"
+            },
+            {
+                "id": "c2_2_103",
+                "char": "慌",
+                "zhuyin": "ㄏㄨㄤ",
+                "example": "慌張"
+            },
+            {
+                "id": "c2_2_104",
+                "char": "醬",
+                "zhuyin": "ㄐㄧㄤˋ",
+                "example": "果醬"
+            },
+            {
+                "id": "c2_2_105",
+                "char": "尖",
+                "zhuyin": "ㄐㄧㄢ",
+                "example": "尖銳"
+            },
+            {
+                "id": "c2_2_106",
+                "char": "角",
+                "zhuyin": "ㄐㄧㄠˇ",
+                "example": "角落"
+            },
+            {
+                "id": "c2_2_107",
+                "char": "捐",
+                "zhuyin": "ㄐㄩㄢ",
+                "example": "捐款"
+            },
+            {
+                "id": "c2_2_108",
+                "char": "簡",
+                "zhuyin": "ㄐㄧㄢˇ",
+                "example": "簡單"
+            },
+            {
+                "id": "c2_2_109",
+                "char": "祭",
+                "zhuyin": "ㄐㄧˋ",
+                "example": "祭典"
+            },
+            {
+                "id": "c2_2_110",
+                "char": "甲",
+                "zhuyin": "ㄐㄧㄚˇ",
+                "example": "指甲"
+            },
+            {
+                "id": "c2_2_111",
+                "char": "軍",
+                "zhuyin": "ㄐㄩㄣ",
+                "example": "軍隊"
+            },
+            {
+                "id": "c2_2_112",
+                "char": "機",
+                "zhuyin": "ㄐㄧ",
+                "example": "飛機"
+            },
+            {
+                "id": "c2_2_113",
+                "char": "解",
+                "zhuyin": "ㄐㄧㄝˇ",
+                "example": "解決"
+            },
+            {
+                "id": "c2_2_114",
+                "char": "幾",
+                "zhuyin": "ㄐㄧˇ",
+                "example": "幾個"
+            },
+            {
+                "id": "c2_2_115",
+                "char": "借",
+                "zhuyin": "ㄐㄧㄝˋ",
+                "example": "借書"
+            },
+            {
+                "id": "c2_2_116",
+                "char": "介",
+                "zhuyin": "ㄐㄧㄝˋ",
+                "example": "介紹"
+            },
+            {
+                "id": "c2_2_117",
+                "char": "界",
+                "zhuyin": "ㄐㄧㄝˋ",
+                "example": "世界"
+            },
+            {
+                "id": "c2_2_118",
+                "char": "雞",
+                "zhuyin": "ㄐㄧ",
+                "example": "小雞"
+            },
+            {
+                "id": "c2_2_119",
+                "char": "驚",
+                "zhuyin": "ㄐㄧㄥ",
+                "example": "驚訝"
+            },
+            {
+                "id": "c2_2_120",
+                "char": "緊",
+                "zhuyin": "ㄐㄧㄣˇ",
+                "example": "緊張"
+            },
+            {
+                "id": "c2_2_121",
+                "char": "經",
+                "zhuyin": "ㄐㄧㄥ",
+                "example": "經過"
+            },
+            {
+                "id": "c2_2_122",
+                "char": "健",
+                "zhuyin": "ㄐㄧㄢˋ",
+                "example": "健康"
+            },
+            {
+                "id": "c2_2_123",
+                "char": "講",
+                "zhuyin": "ㄐㄧㄤˇ",
+                "example": "講話"
+            },
+            {
+                "id": "c2_2_124",
+                "char": "救",
+                "zhuyin": "ㄐㄧㄡˋ",
+                "example": "救命"
+            },
+            {
+                "id": "c2_2_125",
+                "char": "箭",
+                "zhuyin": "ㄐㄧㄢˋ",
+                "example": "弓箭"
+            },
+            {
+                "id": "c2_2_126",
+                "char": "清",
+                "zhuyin": "ㄑㄧㄥ",
+                "example": "清潔"
+            },
+            {
+                "id": "c2_2_127",
+                "char": "青",
+                "zhuyin": "ㄑㄧㄥ",
+                "example": "青年"
+            },
+            {
+                "id": "c2_2_128",
+                "char": "卻",
+                "zhuyin": "ㄑㄩㄝˋ",
+                "example": "退卻"
+            },
+            {
+                "id": "c2_2_129",
+                "char": "悄",
+                "zhuyin": "ㄑㄧㄠˇ",
+                "example": "悄悄"
+            },
+            {
+                "id": "c2_2_130",
+                "char": "且",
+                "zhuyin": "ㄑㄧㄝˇ",
+                "example": "而且"
+            },
+            {
+                "id": "c2_2_131",
+                "char": "全",
+                "zhuyin": "ㄑㄩㄢˊ",
+                "example": "全部"
+            },
+            {
+                "id": "c2_2_132",
+                "char": "切",
+                "zhuyin": "ㄑㄧㄝ",
+                "example": "切開"
+            },
+            {
+                "id": "c2_2_133",
+                "char": "晴",
+                "zhuyin": "ㄑㄧㄥˊ",
+                "example": "晴天"
+            },
+            {
+                "id": "c2_2_134",
+                "char": "雀",
+                "zhuyin": "ㄑㄩㄝˋ",
+                "example": "麻雀"
+            },
+            {
+                "id": "c2_2_135",
+                "char": "牆",
+                "zhuyin": "ㄑㄧㄤˊ",
+                "example": "牆壁"
+            },
+            {
+                "id": "c2_2_136",
+                "char": "錢",
+                "zhuyin": "ㄑㄧㄢˊ",
+                "example": "金錢"
+            },
+            {
+                "id": "c2_2_137",
+                "char": "窮",
+                "zhuyin": "ㄑㄩㄥˊ",
+                "example": "貧窮"
+            },
+            {
+                "id": "c2_2_138",
+                "char": "形",
+                "zhuyin": "ㄒㄧㄥˊ",
+                "example": "形狀"
+            },
+            {
+                "id": "c2_2_139",
+                "char": "熊",
+                "zhuyin": "ㄒㄩㄥˊ",
+                "example": "狗熊"
+            },
+            {
+                "id": "c2_2_140",
+                "char": "享",
+                "zhuyin": "ㄒㄧㄤˇ",
+                "example": "享受"
+            },
+            {
+                "id": "c2_2_141",
+                "char": "希",
+                "zhuyin": "ㄒㄧ",
+                "example": "希望"
+            },
+            {
+                "id": "c2_2_142",
+                "char": "寫",
+                "zhuyin": "ㄒㄧㄝˇ",
+                "example": "寫字"
+            },
+            {
+                "id": "c2_2_143",
+                "char": "消",
+                "zhuyin": "ㄒㄧㄠ",
+                "example": "消失"
+            },
+            {
+                "id": "c2_2_144",
+                "char": "凶",
+                "zhuyin": "ㄒㄩㄥ",
+                "example": "凶惡"
+            },
+            {
+                "id": "c2_2_145",
+                "char": "血",
+                "zhuyin": "ㄒㄧㄝˇ",
+                "example": "流血"
+            },
+            {
+                "id": "c2_2_146",
+                "char": "需",
+                "zhuyin": "ㄒㄩ",
+                "example": "需要"
+            },
+            {
+                "id": "c2_2_147",
+                "char": "響",
+                "zhuyin": "ㄒㄧㄤˇ",
+                "example": "響亮"
+            },
+            {
+                "id": "c2_2_148",
+                "char": "脩",
+                "zhuyin": "ㄒㄧㄡ",
+                "example": "束脩"
+            },
+            {
+                "id": "c2_2_149",
+                "char": "咻",
+                "zhuyin": "ㄒㄧㄡ",
+                "example": "咻咻"
+            },
+            {
+                "id": "c2_2_150",
+                "char": "珠",
+                "zhuyin": "ㄓㄨ",
+                "example": "珍珠"
+            },
+            {
+                "id": "c2_2_151",
+                "char": "植",
+                "zhuyin": "ㄓˊ",
+                "example": "植物"
+            },
+            {
+                "id": "c2_2_152",
+                "char": "指",
+                "zhuyin": "ㄓˇ",
+                "example": "手指"
+            },
+            {
+                "id": "c2_2_153",
+                "char": "昭",
+                "zhuyin": "ㄓㄠ",
+                "example": "昭雪"
+            },
+            {
+                "id": "c2_2_154",
+                "char": "招",
+                "zhuyin": "ㄓㄠ",
+                "example": "招手"
+            },
+            {
+                "id": "c2_2_155",
+                "char": "照",
+                "zhuyin": "ㄓㄠˋ",
+                "example": "照顧"
+            },
+            {
+                "id": "c2_2_156",
+                "char": "志",
+                "zhuyin": "ㄓˋ",
+                "example": "志願"
+            },
+            {
+                "id": "c2_2_157",
+                "char": "重",
+                "zhuyin": "ㄓㄨㄥˋ",
+                "example": "重量"
+            },
+            {
+                "id": "c2_2_158",
+                "char": "者",
+                "zhuyin": "ㄓㄜˇ",
+                "example": "作者"
+            },
+            {
+                "id": "c2_2_159",
+                "char": "章",
+                "zhuyin": "ㄓㄤ",
+                "example": "文章"
+            },
+            {
+                "id": "c2_2_160",
+                "char": "抓",
+                "zhuyin": "ㄓㄨㄚ",
+                "example": "抓住"
+            },
+            {
+                "id": "c2_2_161",
+                "char": "智",
+                "zhuyin": "ㄓˋ",
+                "example": "智慧"
+            },
+            {
+                "id": "c2_2_162",
+                "char": "撞",
+                "zhuyin": "ㄓㄨㄤˋ",
+                "example": "撞倒"
+            },
+            {
+                "id": "c2_2_163",
+                "char": "抄",
+                "zhuyin": "ㄔㄠ",
+                "example": "抄寫"
+            },
+            {
+                "id": "c2_2_164",
+                "char": "傳",
+                "zhuyin": "ㄔㄨㄢˊ",
+                "example": "傳遞"
+            },
+            {
+                "id": "c2_2_165",
+                "char": "舒",
+                "zhuyin": "ㄕㄨ",
+                "example": "舒服"
+            },
+            {
+                "id": "c2_2_166",
+                "char": "市",
+                "zhuyin": "ㄕˋ",
+                "example": "市場"
+            },
+            {
+                "id": "c2_2_167",
+                "char": "實",
+                "zhuyin": "ㄕˊ",
+                "example": "實在"
+            },
+            {
+                "id": "c2_2_168",
+                "char": "睡",
+                "zhuyin": "ㄕㄨㄟˋ",
+                "example": "睡覺"
+            },
+            {
+                "id": "c2_2_169",
+                "char": "式",
+                "zhuyin": "ㄕˋ",
+                "example": "方式"
+            },
+            {
+                "id": "c2_2_170",
+                "char": "食",
+                "zhuyin": "ㄕˊ",
+                "example": "食物"
+            },
+            {
+                "id": "c2_2_171",
+                "char": "失",
+                "zhuyin": "ㄕ",
+                "example": "失去"
+            },
+            {
+                "id": "c2_2_172",
+                "char": "士",
+                "zhuyin": "ㄕˋ",
+                "example": "士兵"
+            },
+            {
+                "id": "c2_2_173",
+                "char": "紹",
+                "zhuyin": "ㄕㄠˋ",
+                "example": "介紹"
+            },
+            {
+                "id": "c2_2_174",
+                "char": "識",
+                "zhuyin": "ㄕˋ",
+                "example": "認識"
+            },
+            {
+                "id": "c2_2_175",
+                "char": "世",
+                "zhuyin": "ㄕˋ",
+                "example": "世界"
+            },
+            {
+                "id": "c2_2_176",
+                "char": "舌",
+                "zhuyin": "ㄕㄜˊ",
+                "example": "舌頭"
+            },
+            {
+                "id": "c2_2_177",
+                "char": "射",
+                "zhuyin": "ㄕㄜˋ",
+                "example": "射箭"
+            },
+            {
+                "id": "c2_2_178",
+                "char": "晒",
+                "zhuyin": "ㄕㄞˋ",
+                "example": "晒太陽"
+            },
+            {
+                "id": "c2_2_179",
+                "char": "傷",
+                "zhuyin": "ㄕㄤ",
+                "example": "受傷"
+            },
+            {
+                "id": "c2_2_180",
+                "char": "守",
+                "zhuyin": "ㄕㄡˇ",
+                "example": "守護"
+            },
+            {
+                "id": "c2_2_181",
+                "char": "熟",
+                "zhuyin": "ㄕㄡˊ",
+                "example": "熟悉"
+            },
+            {
+                "id": "c2_2_182",
+                "char": "哨",
+                "zhuyin": "ㄕㄠˋ",
+                "example": "哨子"
+            },
+            {
+                "id": "c2_2_183",
+                "char": "裳",
+                "zhuyin": "ㄕㄤ˙",
+                "example": "衣裳"
+            },
+            {
+                "id": "c2_2_184",
+                "char": "忍",
+                "zhuyin": "ㄖㄣˇ",
+                "example": "忍耐"
+            },
+            {
+                "id": "c2_2_185",
+                "char": "弱",
+                "zhuyin": "ㄖㄨㄛˋ",
+                "example": "弱小"
+            },
+            {
+                "id": "c2_2_186",
+                "char": "造",
+                "zhuyin": "ㄗㄠˋ",
+                "example": "創造"
+            },
+            {
+                "id": "c2_2_187",
+                "char": "嘴",
+                "zhuyin": "ㄗㄨㄟˇ",
+                "example": "嘴巴"
+            },
+            {
+                "id": "c2_2_188",
+                "char": "族",
+                "zhuyin": "ㄗㄨˊ",
+                "example": "民族"
+            },
+            {
+                "id": "c2_2_189",
+                "char": "翠",
+                "zhuyin": "ㄘㄨㄟˋ",
+                "example": "翠綠"
+            },
+            {
+                "id": "c2_2_190",
+                "char": "錯",
+                "zhuyin": "ㄘㄨㄛˋ",
+                "example": "錯誤"
+            },
+            {
+                "id": "c2_2_191",
+                "char": "傘",
+                "zhuyin": "ㄙㄢˇ",
+                "example": "雨傘"
+            },
+            {
+                "id": "c2_2_192",
+                "char": "雖",
+                "zhuyin": "ㄙㄨㄟ",
+                "example": "雖然"
+            },
+            {
+                "id": "c2_2_193",
+                "char": "散",
+                "zhuyin": "ㄙㄢˋ",
+                "example": "散步"
+            },
+            {
+                "id": "c2_2_194",
+                "char": "訴",
+                "zhuyin": "ㄙㄨˋ",
+                "example": "告訴"
+            },
+            {
+                "id": "c2_2_195",
+                "char": "所",
+                "zhuyin": "ㄙㄨㄛˇ",
+                "example": "所以"
+            },
+            {
+                "id": "c2_2_196",
+                "char": "蟻",
+                "zhuyin": "ㄧˇ",
+                "example": "螞蟻"
+            },
+            {
+                "id": "c2_2_197",
+                "char": "由",
+                "zhuyin": "ㄧㄡˊ",
+                "example": "由於"
+            },
+            {
+                "id": "c2_2_198",
+                "char": "洋",
+                "zhuyin": "ㄧㄤˊ",
+                "example": "海洋"
+            },
+            {
+                "id": "c2_2_199",
+                "char": "沿",
+                "zhuyin": "ㄧㄢˊ",
+                "example": "沿著"
+            },
+            {
+                "id": "c2_2_200",
+                "char": "揚",
+                "zhuyin": "ㄧㄤˊ",
+                "example": "飛揚"
+            },
+            {
+                "id": "c2_2_201",
+                "char": "爺",
+                "zhuyin": "ㄧㄝˊ",
+                "example": "爺爺"
+            },
+            {
+                "id": "c2_2_202",
+                "char": "議",
+                "zhuyin": "ㄧˋ",
+                "example": "會議"
+            },
+            {
+                "id": "c2_2_203",
+                "char": "羊",
+                "zhuyin": "ㄧㄤˊ",
+                "example": "綿羊"
+            },
+            {
+                "id": "c2_2_204",
+                "char": "鴨",
+                "zhuyin": "ㄧㄚ",
+                "example": "鴨子"
+            },
+            {
+                "id": "c2_2_205",
+                "char": "搖",
+                "zhuyin": "ㄧㄠˊ",
+                "example": "搖頭"
+            },
+            {
+                "id": "c2_2_206",
+                "char": "銀",
+                "zhuyin": "ㄧㄣˊ",
+                "example": "銀行"
+            },
+            {
+                "id": "c2_2_207",
+                "char": "夜",
+                "zhuyin": "ㄧㄝˋ",
+                "example": "夜晚"
+            },
+            {
+                "id": "c2_2_208",
+                "char": "樣",
+                "zhuyin": "ㄧㄤˋ",
+                "example": "榜樣"
+            },
+            {
+                "id": "c2_2_209",
+                "char": "郵",
+                "zhuyin": "ㄧㄡˊ",
+                "example": "郵局"
+            },
+            {
+                "id": "c2_2_210",
+                "char": "鴉",
+                "zhuyin": "ㄧㄚ",
+                "example": "烏鴉"
+            },
+            {
+                "id": "c2_2_211",
+                "char": "往",
+                "zhuyin": "ㄨㄤˇ",
+                "example": "往前"
+            },
+            {
+                "id": "c2_2_212",
+                "char": "舞",
+                "zhuyin": "ㄨˇ",
+                "example": "跳舞"
+            },
+            {
+                "id": "c2_2_213",
+                "char": "彎",
+                "zhuyin": "ㄨㄢ",
+                "example": "彎曲"
+            },
+            {
+                "id": "c2_2_214",
+                "char": "望",
+                "zhuyin": "ㄨㄤˋ",
+                "example": "希望"
+            },
+            {
+                "id": "c2_2_215",
+                "char": "微",
+                "zhuyin": "ㄨㄟˊ",
+                "example": "微笑"
+            },
+            {
+                "id": "c2_2_216",
+                "char": "完",
+                "zhuyin": "ㄨㄢˊ",
+                "example": "完成"
+            },
+            {
+                "id": "c2_2_217",
+                "char": "萬",
+                "zhuyin": "ㄨㄢˋ",
+                "example": "一萬"
+            },
+            {
+                "id": "c2_2_218",
+                "char": "窩",
+                "zhuyin": "ㄨㄛ",
+                "example": "鳥窩"
+            },
+            {
+                "id": "c2_2_219",
+                "char": "伍",
+                "zhuyin": "ㄨˇ",
+                "example": "隊伍"
+            },
+            {
+                "id": "c2_2_220",
+                "char": "圍",
+                "zhuyin": "ㄨㄟˊ",
+                "example": "包圍"
+            },
+            {
+                "id": "c2_2_221",
+                "char": "碗",
+                "zhuyin": "ㄨㄢˇ",
+                "example": "飯碗"
+            },
+            {
+                "id": "c2_2_222",
+                "char": "永",
+                "zhuyin": "ㄩㄥˇ",
+                "example": "永遠"
+            },
+            {
+                "id": "c2_2_223",
+                "char": "約",
+                "zhuyin": "ㄩㄝ",
+                "example": "約定"
+            },
+            {
+                "id": "c2_2_224",
+                "char": "勇",
+                "zhuyin": "ㄩㄥˇ",
+                "example": "勇敢"
+            },
+            {
+                "id": "c2_2_225",
+                "char": "遠",
+                "zhuyin": "ㄩㄢˇ",
+                "example": "遠方"
+            },
+            {
+                "id": "c2_2_226",
+                "char": "乘",
+                "zhuyin": "ㄔㄥˊ",
+                "example": "乘車"
+            },
+            {
+                "id": "c2_2_227",
+                "char": "站",
+                "zhuyin": "ㄓㄢˋ",
+                "example": "站立"
+            },
+            {
+                "id": "c2_2_228",
+                "char": "窗",
+                "zhuyin": "ㄔㄨㄤ",
+                "example": "窗戶"
+            },
+            {
+                "id": "c2_2_229",
+                "char": "翅",
+                "zhuyin": "ㄔˋ",
+                "example": "翅膀"
+            },
+            {
+                "id": "c2_2_230",
+                "char": "巢",
+                "zhuyin": "ㄔㄠˊ",
+                "example": "鳥巢"
+            },
+            {
+                "id": "c2_2_231",
+                "char": "避",
+                "zhuyin": "ㄅㄧˋ",
+                "example": "躲避"
+            },
+            {
+                "id": "c2_2_232",
+                "char": "寶",
+                "zhuyin": "ㄅㄠˇ",
+                "example": "寶貝"
+            },
+            {
+                "id": "c2_2_233",
+                "char": "認",
+                "zhuyin": "ㄖㄣˋ",
+                "example": "認真"
+            },
+            {
+                "id": "c2_2_234",
+                "char": "透",
+                "zhuyin": "ㄊㄡˋ",
+                "example": "透明"
+            },
+            {
+                "id": "c2_2_235",
+                "char": "荻",
+                "zhuyin": "ㄉㄧˊ",
+                "example": "蘆荻"
+            },
+            {
+                "id": "c2_2_236",
+                "char": "濃",
+                "zhuyin": "ㄋㄨㄥˊ",
+                "example": "濃厚"
+            },
+            {
+                "id": "c2_2_237",
+                "char": "塘",
+                "zhuyin": "ㄊㄤˊ",
+                "example": "池塘"
+            },
+            {
+                "id": "c2_2_238",
+                "char": "隊",
+                "zhuyin": "ㄉㄨㄟˋ",
+                "example": "隊伍"
+            },
+            {
+                "id": "c2_2_239",
+                "char": "農",
+                "zhuyin": "ㄋㄨㄥˊ",
+                "example": "農夫"
+            },
+            {
+                "id": "c2_2_240",
+                "char": "難",
+                "zhuyin": "ㄋㄢˊ",
+                "example": "困難"
+            },
+            {
+                "id": "c2_2_241",
+                "char": "廊",
+                "zhuyin": "ㄌㄤˊ",
+                "example": "走廊"
+            },
+            {
+                "id": "c2_2_242",
+                "char": "籃",
+                "zhuyin": "ㄌㄢˊ",
+                "example": "籃球"
+            },
+            {
+                "id": "c2_2_243",
+                "char": "筷",
+                "zhuyin": "ㄎㄨㄞˋ",
+                "example": "筷子"
+            }
+        ]
+    }
+]

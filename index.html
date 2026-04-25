@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>國字學習樂</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="bg-gradient-to-br from-sky-50 to-indigo-100 min-h-screen">
+<body class="bg-gradient-to-br from-sky-50 to-indigo-100 min-h-screen overflow-x-hidden">
     <div id="app" class="container mx-auto px-4 py-6 max-w-lg">
 
         <!-- 首頁 -->
@@ -23,6 +23,25 @@
                 <div class="flex justify-center mt-4 gap-3" id="semester-selector"></div>
             </div>
 
+            <!-- 時間選擇 -->
+            <div class="bg-white rounded-2xl shadow p-4 mb-6">
+                <h3 class="text-sm font-medium text-gray-500 mb-3 text-center">⏱️ 連連看挑戰時間</h3>
+                <div class="flex justify-center gap-2" id="time-selector">
+                    <button data-time="30"
+                        class="time-btn px-4 py-2 rounded-lg text-sm font-medium bg-gray-100 text-gray-600 hover:bg-gray-200 transition-all">30
+                        秒</button>
+                    <button data-time="60"
+                        class="time-btn px-4 py-2 rounded-lg text-sm font-medium bg-gray-100 text-gray-600 hover:bg-gray-200 transition-all">60
+                        秒</button>
+                    <button data-time="90"
+                        class="time-btn px-4 py-2 rounded-lg text-sm font-medium bg-indigo-600 text-white transition-all">90
+                        秒</button>
+                    <button data-time="120"
+                        class="time-btn px-4 py-2 rounded-lg text-sm font-medium bg-gray-100 text-gray-600 hover:bg-gray-200 transition-all">120
+                        秒</button>
+                </div>
+            </div>
+
             <!-- 模式選擇按鈕 -->
             <div class="space-y-4">
                 <button id="btn-learn"
@@ -31,7 +50,7 @@
                 </button>
                 <button id="btn-game"
                     class="w-full py-6 bg-gradient-to-r from-green-500 to-green-600 text-white text-2xl font-bold rounded-2xl shadow-lg hover:shadow-xl transition-all hover:scale-[1.02] active:scale-[0.98]">
-                    🎮 翻牌挑戰
+                    🎮 連連看挑戰
                 </button>
             </div>
 
@@ -72,26 +91,101 @@
 
         <!-- 遊戲模式 -->
         <div id="game-page" class="page hidden">
+            <!-- 遊戲 HUD -->
             <div class="flex justify-between items-center mb-4">
-                <button onclick="showPage('home')" class="text-indigo-600 font-medium flex items-center gap-1">
+                <button onclick="showPage('home')" class="text-indigo-600 font-medium flex items-center gap-1 text-sm">
                     <span>←</span> 回首頁
                 </button>
-                <div id="game-score" class="text-lg font-medium text-gray-600"></div>
+                <div class="flex items-center gap-3">
+                    <div id="game-lives" class="text-lg">❤️❤️❤️</div>
+                    <div id="game-combo" class="combo-badge hidden">🔥 x1</div>
+                    <div id="game-score" class="text-lg font-bold text-indigo-700">0 分</div>
+                </div>
             </div>
 
-            <div id="game-board" class="grid grid-cols-4 gap-3">
+            <!-- 計時器 -->
+            <div class="mb-4">
+                <div class="flex justify-between text-xs text-gray-500 mb-1">
+                    <span>⏱️ 剩餘時間</span>
+                    <span id="timer-text">90 秒</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
+                    <div id="timer-bar" class="h-3 rounded-full transition-all duration-1000 ease-linear bg-green-500"
+                        style="width: 100%"></div>
+                </div>
             </div>
 
-            <div id="game-complete" class="hidden mt-8 bg-white rounded-2xl shadow-xl p-8 text-center">
-                <div class="text-6xl mb-4">🎉</div>
-                <h2 class="text-2xl font-bold text-gray-800 mb-2">太棒了！</h2>
-                <p class="text-gray-600 mb-6" id="game-result"></p>
-                <button onclick="startGame()" class="px-8 py-3 bg-green-500 text-white font-medium rounded-xl">
-                    再玩一次
-                </button>
+            <!-- 遊戲說明 -->
+            <div id="game-hint" class="text-center text-sm text-gray-500 mb-3">
+                把注音拖曳到對應的國字上吧！
+            </div>
+
+            <!-- 國字放置區 -->
+            <div id="char-drop-zone" class="grid grid-cols-3 gap-3 mb-6">
+                <!-- 動態生成 -->
+            </div>
+
+            <!-- 注音拖拽區 -->
+            <div id="zhuyin-drag-zone" class="flex flex-wrap justify-center gap-3 min-h-[100px]">
+                <!-- 動態生成 -->
+            </div>
+
+            <!-- 遊戲完成畫面 -->
+            <div id="game-complete" class="hidden fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
+                <div class="bg-white rounded-3xl shadow-2xl p-8 text-center max-w-sm w-full animate-pop-in">
+                    <div class="text-6xl mb-4" id="complete-emoji">🎉</div>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2" id="complete-title">太棒了！</h2>
+
+                    <!-- 星星評級 -->
+                    <div class="flex justify-center gap-2 mb-4" id="star-rating">
+                        <span class="text-4xl star">⭐</span>
+                        <span class="text-4xl star">⭐</span>
+                        <span class="text-4xl star">⭐</span>
+                    </div>
+
+                    <div class="space-y-2 mb-6 text-gray-600">
+                        <p class="text-xl font-bold text-indigo-600" id="complete-score">總分：0</p>
+                        <p id="complete-detail">用時 45 秒 · 錯誤 1 次</p>
+                        <p id="complete-bonus" class="text-sm text-orange-500"></p>
+                    </div>
+
+                    <div class="flex gap-3">
+                        <button onclick="showPage('home')"
+                            class="flex-1 py-3 bg-gray-200 text-gray-700 font-medium rounded-xl">
+                            回首頁
+                        </button>
+                        <button onclick="startGame()"
+                            class="flex-1 py-3 bg-gradient-to-r from-green-500 to-green-600 text-white font-bold rounded-xl shadow-lg hover:shadow-xl transition-all">
+                            再玩一次
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 時間到畫面 -->
+            <div id="game-over" class="hidden fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
+                <div class="bg-white rounded-3xl shadow-2xl p-8 text-center max-w-sm w-full animate-pop-in">
+                    <div class="text-6xl mb-4">⏰</div>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">時間到！</h2>
+                    <p class="text-gray-600 mb-2">已完成 <span id="over-matched" class="font-bold text-indigo-600">0</span>
+                        / <span id="over-total">0</span> 組</p>
+                    <p class="text-xl font-bold text-indigo-600 mb-6" id="over-score">總分：0</p>
+                    <div class="flex gap-3">
+                        <button onclick="showPage('home')"
+                            class="flex-1 py-3 bg-gray-200 text-gray-700 font-medium rounded-xl">
+                            回首頁
+                        </button>
+                        <button onclick="startGame()"
+                            class="flex-1 py-3 bg-gradient-to-r from-orange-500 to-orange-600 text-white font-bold rounded-xl shadow-lg hover:shadow-xl transition-all">
+                            再試一次
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
 
+        <!-- 粒子容器 -->
+        <div id="particles-container" class="fixed inset-0 pointer-events-none z-40 overflow-hidden"></div>
     </div>
 
     <script src="app.js"></script>

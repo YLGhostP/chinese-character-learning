@@ -1,7 +1,251 @@
 body {
-    font-family: system-ui, -apple-system, sans-serif;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
 }
 
+/* ========== 遊戲卡片樣式 ========== */
+.char-slot {
+    aspect-ratio: 1;
+    background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+    border: 3px dashed #d1d5db;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #374151;
+    transition: all 0.3s ease;
+    position: relative;
+    user-select: none;
+}
+
+.char-slot.matched {
+    background: linear-gradient(135deg, #86efac 0%, #4ade80 100%);
+    border-color: #22c55e;
+    color: #14532d;
+    animation: matchSuccess 0.5s ease-out;
+}
+
+.char-slot.drag-over {
+    background: linear-gradient(135deg, #bfdbfe 0%, #93c5fd 100%);
+    border-color: #3b82f6;
+    transform: scale(1.05);
+}
+
+.zhuyin-card {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border: 2px solid #fbbf24;
+    border-radius: 0.75rem;
+    padding: 0.75rem 1.25rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #92400e;
+    cursor: grab;
+    user-select: none;
+    touch-action: none;
+    transition: transform 0.15s, box-shadow 0.15s;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 60px;
+    min-height: 48px;
+}
+
+.zhuyin-card:active {
+    cursor: grabbing;
+}
+
+.zhuyin-card.dragging {
+    opacity: 0.8;
+    transform: scale(1.1) rotate(3deg);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+    position: fixed;
+    pointer-events: none;
+}
+
+.zhuyin-card.matched {
+    display: none;
+}
+
+.zhuyin-card.shake {
+    animation: shakeCard 0.4s ease-in-out;
+}
+
+/* ========== 計時器 ========== */
+#timer-bar.bg-green-500 {
+    background-color: #22c55e;
+}
+
+#timer-bar.bg-yellow-500 {
+    background-color: #eab308;
+}
+
+#timer-bar.bg-red-500 {
+    background-color: #ef4444;
+}
+
+/* ========== Combo 標籤 ========== */
+.combo-badge {
+    background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    animation: comboPulse 0.5s ease-out;
+}
+
+/* ========== 動畫 ========== */
+@keyframes matchSuccess {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.15);
+    }
+
+    50% {
+        transform: scale(0.95);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes shakeCard {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-8px);
+    }
+
+    40% {
+        transform: translateX(8px);
+    }
+
+    60% {
+        transform: translateX(-5px);
+    }
+
+    80% {
+        transform: translateX(5px);
+    }
+}
+
+@keyframes comboPulse {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes popIn {
+    0% {
+        transform: scale(0.7);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.animate-pop-in {
+    animation: popIn 0.3s ease-out;
+}
+
+@keyframes starAppear {
+    0% {
+        transform: scale(0) rotate(-30deg);
+        opacity: 0;
+    }
+
+    60% {
+        transform: scale(1.3) rotate(10deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(0deg);
+        opacity: 1;
+    }
+}
+
+.star {
+    display: inline-block;
+    opacity: 0.3;
+    filter: grayscale(1);
+    transition: all 0.5s ease;
+}
+
+.star.earned {
+    opacity: 1;
+    filter: grayscale(0);
+    animation: starAppear 0.6s ease-out forwards;
+}
+
+/* ========== 粒子效果 ========== */
+.particle {
+    position: absolute;
+    pointer-events: none;
+    border-radius: 50%;
+    animation: particleFly 1s ease-out forwards;
+}
+
+@keyframes particleFly {
+    0% {
+        transform: translate(0, 0) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(var(--tx), var(--ty)) scale(0);
+        opacity: 0;
+    }
+}
+
+/* ========== 煙火粒子 ========== */
+.firework-particle {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    pointer-events: none;
+    animation: fireworkExplode 1.2s ease-out forwards;
+}
+
+@keyframes fireworkExplode {
+    0% {
+        transform: translate(0, 0) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(var(--dx), var(--dy)) scale(0);
+        opacity: 0;
+    }
+}
+
+/* ========== 翻牌舊樣式（保留供參考，已不使用） ========== */
 .flip-card {
     perspective: 1000px;
 }
